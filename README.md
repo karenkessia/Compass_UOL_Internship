@@ -14,13 +14,16 @@
   </tr>
 </table>
 
-## Sobre este Repositório
+## Sobre
 
 Este espaço foi criado para registrar minha trajetória como estagiária em QA (Quality Assurance) no programa **AWS & AI for Quality Engineering** da Compass UOL. Aqui você encontrará um compilado de aprendizados, atividades desenvolvidas, desafios enfrentados e materiais produzidos durante o estágio, com foco em práticas modernas de garantia de qualidade, automação de testes, testes exploratórios, estratégias com IA e aplicações em nuvem (AWS).
 
 ##  Estrutura do Repositório
 
 Um mapa mental visual foi criado para ajudar na compreensão geral do repositório, suas seções e conexões entre os tópicos trabalhados.
+
+
+<img src="https://github.com/user-attachments/assets/2400aa09-7b1b-40d4-99f7-0c4e54243a38" alt="Image">
 
 
 
