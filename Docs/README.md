@@ -50,5 +50,5 @@ Durante o estágio, tive a oportunidade de desenvolver habilidades técnicas e c
 
 <p align="center">
   <br>
-  <img src="https://github.com/user-attachments/assets/79a2e995-a1be-4192-9ded-771004ef7417" width="350">
+  <img src="https://github.com/user-attachments/assets/79a2e995-a1be-4192-9ded-771004ef7417" width="150">
 </p>
