@@ -7,3 +7,6 @@ def calc():
 
 def test_soma(calc):
     assert calc.somar(12, 8) == 20
+
+def test_subtracao(calc):
+    assert calc.subtrair(50, 35) == 15
