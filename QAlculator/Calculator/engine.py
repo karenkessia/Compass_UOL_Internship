@@ -13,3 +13,7 @@ def subtrair(self, a, b):
         raise ValueError("Não é possível dividir por zero.")
     return a / b
 
+def media(self, a, b):
+    return (a + b) / 2
+
+
