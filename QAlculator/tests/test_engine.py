@@ -10,3 +10,6 @@ def test_soma(calc):
 
 def test_subtracao(calc):
     assert calc.subtrair(50, 35) == 15
+
+def test_multiplicacao(calc):
+    assert calc.multiplicar(4, 6) == 24
