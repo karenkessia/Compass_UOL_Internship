@@ -16,4 +16,8 @@ def subtrair(self, a, b):
 def media(self, a, b):
     return (a + b) / 2
 
+def eh_par(self, n):
+    return n % 2 == 0
+
+
 
