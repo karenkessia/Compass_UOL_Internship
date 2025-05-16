@@ -20,3 +20,6 @@ def test_multiplicacao(calc):
      def test_divisao_por_zero(calc):
       with pytest.raises(ValueError):
         calc.dividir(20, 0)
+
+        def test_media(calc):
+         assert calc.media(10, 30) == 20
