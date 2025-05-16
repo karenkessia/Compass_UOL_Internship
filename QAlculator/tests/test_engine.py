@@ -13,3 +13,10 @@ def test_subtracao(calc):
 
 def test_multiplicacao(calc):
     assert calc.multiplicar(4, 6) == 24
+
+    def test_divisao(calc):
+     assert calc.dividir(100, 5) == 20
+
+     def test_divisao_por_zero(calc):
+      with pytest.raises(ValueError):
+        calc.dividir(20, 0)
