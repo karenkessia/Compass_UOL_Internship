@@ -23,3 +23,11 @@ def test_multiplicacao(calc):
 
         def test_media(calc):
          assert calc.media(10, 30) == 20
+
+         def test_eh_par_true(calc):
+          assert calc.eh_par(14) is True
+
+          def test_eh_par_false(calc):
+           assert calc.eh_par(15) is False
+
+
