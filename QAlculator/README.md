@@ -20,7 +20,7 @@
   </tr>
 </table>
 
-  <h2> Conteúdos Aplicados</h2>
+  <h3> Conteúdos Aplicados</h3>
   <ul>
     <li>Git e versionamento com commits descritivos</li>
     <li>Estrutura de projeto com organização por responsabilidade</li>
@@ -29,7 +29,7 @@
     <li>Uso de <strong>Python puro</strong> (sem <code>math</code>)</li>
   </ul>
 
-  <h2>⚙️ Funcionalidades Implementadas</h2>
+  <h3> Funcionalidades Implementadas</h3>
   <p>A classe <code>Calculadora</code> contém os seguintes métodos:</p>
   <table style="width: 100%; border-collapse: collapse; margin-top: 10px;">
     <thead style="background-color: #3e64ff; color: white;">
@@ -75,10 +75,10 @@
 
   <p><strong>ℹ️ Observação:</strong> Nenhuma operação utilizou a biblioteca <code>math</code>.</p>
 
-  <h2> Testes com Pytest</h2>
+  <h3> Testes com Pytest</h3>
   <p>Os testes foram escritos antes da implementação usando <strong>TDD</strong>. Eles estão localizados na pasta <code>tests/</code> e cobrem todos os métodos da classe.</p>
 
-  <h2>📁 Estrutura do Projeto</h2>
+  <h3>📁 Estrutura do Projeto</h3>
   <pre style="background: #eee; padding: 10px; border-left: 5px solid #3e64ff;">
 QAlculator/
 ├── calculadora/          # Código fonte
@@ -94,7 +94,7 @@ QAlculator/
 └── README.md             # Documentação
   </pre>
 
-  <h2> Como Executar o Projeto</h2>
+  <h3> Como Executar o Projeto</h3>
   <ol>
     <li><strong>Clone o repositório:</strong>
       <pre>git clone https://github.com/karenkessia/Compass_UOL_Intership.git
@@ -116,7 +116,7 @@ venv\Scripts\activate</pre>
     </li>
   </ol>
 
-  <h2>🧭 Branches & Commits</h2>
+  <h3>🧭 Branches & Commits</h3>
   <p>Foi utilizada a branch <code>main</code> com commits frequentes e descritivos, seguindo as seguintes convenções:</p>
   <ul>
     <li><code>feat:</code> novas funcionalidades</li>
@@ -126,7 +126,28 @@ venv\Scripts\activate</pre>
     <li><code>chore:</code> tarefas auxiliares (configs, etc.)</li>
   </ul>
 
-  <h2>👩‍💻 Autora</h2>
+  <div style="border: 1px solid #e1e4e8; border-radius: 10px; padding: 20px; background-color: #f9f9f9; font-family: Arial, sans-serif; line-height: 1.6;">
+
+  <h3 style="text-align: center;"> Uso de IA e Referências</h3>
+
+  <p>Esta atividade contou com o apoio da <strong>Inteligência Artificial (IA)</strong> para:</p>
+
+  <ul>
+    <li>Auxiliar na organização e estruturação do código</li>
+    <li>Sugerir boas práticas em <strong>Test Driven Development (TDD)</strong></li>
+    <li>Explicar conceitos de testes automatizados com <strong>Pytest</strong></li>
+  </ul>
+
+  <h4> Referências Utilizadas:</h4>
+
+  <ul>
+    <li><a href="https://docs.pytest.org/" target="_blank">Documentação Oficial do Pytest</a></li>
+    <li>Explicações e suporte da IA <strong>ChatGPT (OpenAI)</strong></li>
+  </ul>
+
+</div>
+
+  <h4>👩‍💻 Autora</h4>
   <p><strong>Karen Késsia</strong> – Estagiária em QA</p>
   <p>
     <a href="https://github.com/karenkessia" target="_blank">GitHub: @karenkessia</a>
