@@ -21,6 +21,6 @@ Este espaço foi criado para registrar minha trajetória como estagiária em QA 
 
 <p align="center">
   <br>
-  <img src="https://github.com/user-attachments/assets/79a2e995-a1be-4192-9ded-771004ef7417" width="150">
+<img src="/Img/compasslogo.png" alt="Logo Compass Uol" alt="Compass Uol logo" width="150">
 </p>
 
