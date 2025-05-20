@@ -15,7 +15,7 @@
       </div>
     </td>
     <td align="center" valign="middle">
-      <img src="https://sdmntprwestcentralus.oaiusercontent.com/files/00000000-9200-61fb-a49d-90d587f04d1e/raw?se=2025-05-16T04%3A09%3A23Z&sp=r&sv=2024-08-04&sr=b&scid=00000000-0000-0000-0000-000000000000&skoid=e9d2f8b1-028a-4cff-8eb1-d0e66fbefcca&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-05-15T21%3A20%3A31Z&ske=2025-05-16T21%3A20%3A31Z&sks=b&skv=2024-08-04&sig=xmQhOWrop8Ap7u6T%2BmyNpef%2B459SUE4/9GQUO/8Ye0A%3D" alt="Imagem Calculadora" width="250px"/>
+      <img src="../Img/calculator.jpg" alt="Imagem Calculadora" width="250px"/>
     </td>
   </tr>
 </table>
