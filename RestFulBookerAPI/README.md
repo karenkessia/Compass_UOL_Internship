@@ -43,19 +43,22 @@
 <h3> Estrutura do Projeto</h3>
 
  <pre style="background: #eee; padding: 10px; border-left: 5px solid #3e64ff;">
- RestFulBookerAPI/ 
+RestFulBookerAPI/
 ├── resources/
-│ ├── Auth.robot           
-│ ├── CreateBooking.robot 
-│ ├── DeleteBooking.robot  
-│ ├── GetBooking.robot     
-│ ├── UpdateBooking.robot  
-│ └── _base.robot          
-└── tests/ 
-└── tests.robot 
-│
-└── requirements.txt      
-└── README.md              
+│   ├── Auth.robot           
+│   ├── CreateBooking.robot 
+│   ├── DeleteBooking.robot  
+│   ├── GetBooking.robot     
+│   ├── UpdateBooking.robot  
+│   └── _base.robot          
+├── tests/
+│   ├── tests.robot 
+│   └── results/
+│       ├── log.html
+│       ├── output.xml
+│       └── report.html
+├── requirements.txt      
+└── README.md
   </pre>
 
 
@@ -98,5 +101,6 @@ pip install robotframework-requests
 </code></pre>
 
 ---
+
 
 
