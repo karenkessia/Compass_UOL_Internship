@@ -102,5 +102,63 @@ pip install robotframework-requests
 
 ---
 
+<table>
+  <tr>
+    <td style="vertical-align: top; padding-right: 20px;">
+      <h3> Relatórios Gerados</h3>
+      <ul>
+        <li><code>log.html</code> — Log detalhado da execução</li>
+        <li><code>report.html</code> — Relatório geral</li>
+        <li><code>output.xml</code> — Saída para integrações</li>
+      </ul>
+      <p><strong>✅ Todos os 5 testes passaram com sucesso.</strong></p>
+    </td>
+    <td>
+      <img src="../Img/CapturadeTelaLog.png" alt="Relatórios" width="550">
+    </td>
+  </tr>
+</table>
 
+
+<!--  Funcionalidades Testadas -->
+<h3> Funcionalidades Testadas</h3>
+<ul>
+  <li> <strong>Autenticação</strong> e obtenção de token</li>
+  <li> <strong>Criação</strong> de reservas (POST)</li>
+  <li> <strong>Consulta</strong> de reservas (GET)</li>
+  <li> <strong>Atualização</strong> de reservas (PUT)</li>
+  <li> <strong>Exclusão</strong> de reservas (DELETE)</li>
+</ul>
+
+---
+
+<!--  Referências -->
+<h3> Referências</h3>
+<ul>
+  <li><strong>Documentação da Restful Booker API</strong> — <a href="https://restful-booker.herokuapp.com/apidoc/index.html" target="_blank">Ver API</a></li>
+  <li><strong>Robot Framework</strong> — Ferramenta de automação de testes</li>
+  <li><strong>RequestsLibrary</strong> — Biblioteca para testes HTTP com Robot Framework</li>
+</ul>
+
+---
+
+<!--  Créditos das Imagens -->
+<h3> Créditos Visuais</h3>
+<p>As imagens foram geradas com auxílio de inteligência artificial (Sora, by OpenAI).</p>
+
+---
+
+<!--  Autora -->
+<h3>👩‍💻 Autora</h3>
+<p>
+  <strong>Karen Késsia</strong><br>
+  Estagiária QA na Compass UOL<br>
+  GitHub: <a href="https://github.com/karenkessia" target="_blank">@karenkessia</a>
+</p>
+
+
+<p align="center">
+  <br>
+<img src="../Img/compasslogo.png" alt="Logo Compass Uol" width="150">
+</p>
 
