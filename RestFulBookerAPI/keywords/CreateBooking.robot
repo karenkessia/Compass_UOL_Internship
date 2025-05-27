@@ -4,10 +4,7 @@ Library           Collections
 Resource    _base.robot
 
 *** Keywords ***
-    Criando sessao e obtendo token
-    
-
-    Post CreateBooking
+  
     # ──────────────── AUTENTICAÇÃO ────────────────
 Criando sessao e obtendo token
 

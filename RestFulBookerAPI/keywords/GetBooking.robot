@@ -3,6 +3,7 @@
 Library           RequestsLibrary
 Library           Collections
 Resource          ./_base.robot
+Resource    CreateBooking.robot
 
 
 *** Keywords ***
