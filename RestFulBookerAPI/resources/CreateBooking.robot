@@ -4,9 +4,12 @@ Library           Collections
 Resource    _base.robot
 
 *** Keywords ***
-Post CreateBooking
-    # ──────────────── AUTENTICAÇÃO ────────────────
     Criando sessao e obtendo token
+    
+
+    Post CreateBooking
+    # ──────────────── AUTENTICAÇÃO ────────────────
+Criando sessao e obtendo token
 
     # ──────────────── DADOS DO BOOKING ────────────────
     ${bookingdates}=    Create Dictionary
