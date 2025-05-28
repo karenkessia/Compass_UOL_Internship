@@ -1,6 +1,8 @@
 *** Settings ***
 Resource    ../resources/Auth.robot
 Resource    ../resources/_base.robot
+Resource    ../keywords/_base.robot
+Resource    ../keywords/Auth.robot
 
 *** Test Cases ***
 Validate Successful Authentication
