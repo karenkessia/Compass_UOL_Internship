@@ -1,42 +1,56 @@
 *** Settings ***
-# ──────────────── CONFIGURAÇÕES ────────────────
-Library           RequestsLibrary
-Library           Collections
-
+Documentation     Main test suite for RestFul Booker API
 Resource          ../resources/Auth.robot
 Resource          ../resources/CreateBooking.robot
 Resource          ../resources/GetBooking.robot
 Resource          ../resources/UpdateBooking.robot
 Resource          ../resources/DeleteBooking.robot
-
+Suite Setup       Create Session With Base URL
+Test Teardown     Delete Session    BookerAPI
 
 *** Test Cases ***
-# ──────────────── AUTENTICAÇÃO ────────────────
-Autenticação com sucesso
-    Printando retorno do status
-    Log To Console    >>> Token de acesso gerado com sucesso.
-    Printando retorno do token
+Authentication Should Succeed
+    [Documentation]    Verifies that authentication works correctly
+    [Tags]    auth    smoke
+    Verify Authentication Success
 
+Create And Verify New Booking
+    [Documentation]    Creates a new booking and verifies its creation
+    [Tags]    booking    smoke
+    ${booking_response}=    Create New Booking    
+    ...    John    
+    ...    Doe    
+    ...    100    
+    ...    ${TRUE}    
+    ...    2024-01-01    
+    ...    2024-01-05    
+    ...    Breakfast
+    Verify Booking Creation    ${booking_response}
+    Set Suite Variable    ${BOOKING_ID}    ${booking_response}[bookingid]
 
-# ──────────────── CRIAÇÃO DE BOOKING ────────────────
-Criar novo booking
-    ${booking_id}=    POST CreateBooking
-    Log To Console    >>> Booking criado com ID: ${booking_id}
+Get And Verify Existing Booking
+    [Documentation]    Retrieves and verifies an existing booking
+    [Tags]    booking
+    ${booking}=    Get Booking By ID    ${BOOKING_ID}
+    Verify Booking Details    ${booking}
 
+Update And Verify Booking
+    [Documentation]    Updates an existing booking and verifies changes
+    [Tags]    booking
+    ${original_booking}=    Get Booking By ID    ${BOOKING_ID}
+    ${updated_booking}=    Update Booking    
+    ...    ${BOOKING_ID}    
+    ...    Jane    
+    ...    Smith    
+    ...    150    
+    ...    ${TRUE}    
+    ...    2024-02-01    
+    ...    2024-02-05    
+    ...    Dinner
+    Verify Booking Update    ${original_booking}    ${updated_booking}
 
-# ──────────────── CONSULTA DE BOOKING ────────────────
-Buscar booking existente
-    ${booking_id}=    POST CreateBooking
-    GET GetBooking    ${booking_id}
-
-
-# ──────────────── ATUALIZAÇÃO DE BOOKING ────────────────
-Atualizar booking existente
-    ${booking_id}=    POST CreateBooking
-    PUT UpdateBooking    ${booking_id}
-
-
-# ──────────────── REMOÇÃO DE BOOKING ────────────────
-Deletar booking existente
-    ${booking_id}=    POST CreateBooking
-    DEL DeleteBooking    ${booking_id}
+Delete And Verify Booking
+    [Documentation]    Deletes a booking and verifies deletion
+    [Tags]    booking
+    Delete Booking    ${BOOKING_ID}
+    Verify Booking Deletion    ${BOOKING_ID}
