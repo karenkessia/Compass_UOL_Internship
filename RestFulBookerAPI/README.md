@@ -21,8 +21,11 @@
       Restful Booker API
     </a> 
     utilizando <strong>Robot Framework</strong>, focando em autenticação, criação, consulta, atualização e remoção de reservas (bookings).
+    <br><br>
+    🛠 Projeto aprimorado com o suporte da ferramenta <strong>Amazon Q</strong>, proporcionando mais agilidade e insights durante a implementação dos testes.
   </p>
 </div>
+
 
 
 <blockquote>
