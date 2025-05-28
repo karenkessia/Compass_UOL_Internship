@@ -43,19 +43,32 @@
 <h3> Estrutura do Projeto</h3>
 
  <pre style="background: #eee; padding: 10px; border-left: 5px solid #3e64ff;">
- RestFulBookerAPI/ 
-├── resources/
-│ ├── Auth.robot           
-│ ├── CreateBooking.robot 
-│ ├── DeleteBooking.robot  
-│ ├── GetBooking.robot     
-│ ├── UpdateBooking.robot  
-│ └── _base.robot          
-└── tests/ 
-└── tests.robot 
+ RestFulBookerAPI/
+├── keywords/
+│   ├── Auth.robot
+│   ├── CreateBooking.robot
+│   ├── DeleteBooking.robot
+│   ├── GetBooking.robot
+│   ├── UpdateBooking.robot
+│   └── _base.robot
 │
-└── requirements.txt      
-└── README.md              
+├── resources/      # versão melhorada
+│   ├── Auth.robot
+│   ├── CreateBooking.robot
+│   ├── DeleteBooking.robot
+│   ├── GetBooking.robot
+│   ├── UpdateBooking.robot
+│   └── _base.robot
+│
+├── support/
+│   └── common/
+│       └── common_file.robot
+│
+├── tests/
+│   └── tests.robot
+│
+├── requirements.txt
+└── README.md
   </pre>
 
 
