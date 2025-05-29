@@ -1,14 +1,13 @@
-#  Documento de Atualização: Melhorias no Plano de Testes da API ServeRest
+  Documento de Atualização: Melhorias no Plano de Testes da API ServeRest
 
 **Responsável:** Karen Késsia Herrmann  
 **Versão Atualizada:** 28/05/2025  
 **Contexto:** Ajustes com base em feedbacks recebidos e novos aprendizados em testes automatizados com Robot Framework.
 
----
 
-##  Melhorias Implementadas
+ Melhorias Implementadas
 
-### 1. Cobertura de Testes Ampliada
+ 1. Cobertura de Testes Ampliada
 
 - Aumentamos a cobertura dos testes de 53% para **90%**, incluindo:
   - Casos de borda negligenciados (e.g. nome de produto com apenas 1 caractere).
@@ -16,7 +15,7 @@
   - Validações de campos obrigatórios e tipos de dados (e.g. `preco: string`).
   - Testes de consistência entre ações encadeadas (e.g. criar → editar → deletar o mesmo item).
 
-### 2. Refinamento de Cenários de Teste
+ 2. Refinamento de Cenários de Teste
 
 - Os cenários foram reestruturados para seguir a nomenclatura padrão `Gherkin` nos testes automatizados.
 - Foram criados **novos testes exploratórios guiados**, com base em heurísticas como:
@@ -24,14 +23,14 @@
   - Risco → Impacto → Frequência (modelo PRISMA).
   - Ciclos de autenticação (renovação de token).
 
-### 3. Nova Prioridade de Execução
+ 3. Nova Prioridade de Execução
 
 - Atualizamos a priorização com base em **valor de negócio + impacto técnico**, considerando:
   - **Alta prioridade**: caminhos críticos (login, token, criação de produto).
   - **Média**: atualizações não críticas, listagens.
   - **Baixa**: exclusão de entidades inexistentes.
 
-### 4. Abordagem Automatizada com Robot Framework
+ 4. Abordagem Automatizada com Robot Framework
 
 - Reestruturamos o plano para automação com **Robot Framework**, usando:
   - Biblioteca `RequestsLibrary` para chamadas REST.
@@ -41,7 +40,7 @@
 - Adição de **checks de schema** com `JSONSchemaLibrary` (validação da estrutura esperada das respostas).
 - Integração com **GitHub Actions** para execução contínua.
 
-### 5. Novos Casos Automatizados Adicionados
+ 5. Novos Casos Automatizados Adicionados
 
 - Exemplos de novos testes:
   - Verificar status 401 em endpoints protegidos usando tokens expirados.
@@ -49,9 +48,8 @@
   - Inserção de usuário com campo "administrador" vazio.
   - Deleção de produtos usados por múltiplos carrinhos (dependência parcial da API).
 
----
 
-##  Considerações Finais
+  Considerações Finais
 
 As mudanças foram orientadas por boas práticas de QA, princípios de testes RESTful e recomendações obtidas após o primeiro challenge. O foco foi aprimorar a **qualidade**, a **manutenibilidade** e a **automatização eficiente**.
 
