@@ -49,7 +49,7 @@
 │   ├── UpdateBooking.robot
 │   └── _base.robot
 │
-├── resources/      # versão melhorada
+├── resources/                    # versão melhorada
 │   ├── Auth.robot
 │   ├── CreateBooking.robot
 │   ├── DeleteBooking.robot
@@ -62,12 +62,21 @@
 │       └── common_file.robot
 │
 ├── tests/
-│   └── tests.robot
+│   ├── results/
+│   │   ├── log.html
+│   │   ├── output.html
+│   │   └── report.html
+│   │
+│   ├── auth_tests.robot          # testes implementados
+│   ├── test_base.robot
+│   ├── test_create_booking.robot
+│   ├── test_delete_booking.robot
+│   ├── test_get_booking.robot
+│   └── test_update_booking.robot
 │
 ├── requirements.txt
 └── README.md
   </pre>
-
 
 ---
 
