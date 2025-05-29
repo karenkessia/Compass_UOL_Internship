@@ -164,7 +164,6 @@ pip install robotframework-requests
 <p>
   <strong>Karen Késsia</strong><br>
   Estagiária em QA <br>
-  GitHub: <a href="https://github.com/karenkessia" target="_blank">@karenkessia</a>
 </p>
 
 
