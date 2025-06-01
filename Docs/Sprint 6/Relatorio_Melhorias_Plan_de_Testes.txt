@@ -9,43 +9,42 @@
 
  1. Cobertura de Testes Ampliada
 
-- Aumentamos a cobertura dos testes de 53% para **90%**, incluindo:
-  - Casos de borda negligenciados (e.g. nome de produto com apenas 1 caractere).
+- Aumentamos a cobertura dos testes de 53% para 90%, incluindo:
+  - Casos de borda negligenciados;
   - Verificações de tokens expirados com múltiplos endpoints.
-  - Validações de campos obrigatórios e tipos de dados (e.g. `preco: string`).
+  - Validações de campos obrigatórios e tipos de dados (e.g. "preco: string").
   - Testes de consistência entre ações encadeadas (e.g. criar → editar → deletar o mesmo item).
-
+  - Adição da sessão "Carrinhos"
+  
  2. Refinamento de Cenários de Teste
 
 - Os cenários foram reestruturados para seguir a nomenclatura padrão `Gherkin` nos testes automatizados.
-- Foram criados **novos testes exploratórios guiados**, com base em heurísticas como:
+- Foram criados novos testes exploratórios guiados, com base em heurísticas como:
   - Goldilocks (valores mínimos, médios e máximos).
   - Risco → Impacto → Frequência (modelo PRISMA).
   - Ciclos de autenticação (renovação de token).
 
  3. Nova Prioridade de Execução
 
-- Atualizamos a priorização com base em **valor de negócio + impacto técnico**, considerando:
-  - **Alta prioridade**: caminhos críticos (login, token, criação de produto).
-  - **Média**: atualizações não críticas, listagens.
-  - **Baixa**: exclusão de entidades inexistentes.
+- Atualizamos a priorização com base em valor de negócio + impacto técnico, considerando:
+  - Alta prioridade: caminhos críticos (login, token, criação de produto).
+  - Média: atualizações não críticas, listagens.
+  - Baixa: exclusão de entidades inexistentes.
 
  4. Abordagem Automatizada com Robot Framework
 
-- Reestruturamos o plano para automação com **Robot Framework**, usando:
+- Reestruturamos o plano para automação com Robot Framework, usando:
   - Biblioteca `RequestsLibrary` para chamadas REST.
   - Testes organizados em diretórios por US (`usuarios`, `login`, `produtos`).
-  - Setup e teardown com geração/remoção dinâmica de dados.
   - Utilização de `Fixtures` (arquivos JSON de entrada) e variáveis globais.
-- Adição de **checks de schema** com `JSONSchemaLibrary` (validação da estrutura esperada das respostas).
-- Integração com **GitHub Actions** para execução contínua.
+- Adição de checks de schema com `JSONSchemaLibrary` (validação da estrutura esperada das respostas).
+
 
  5. Novos Casos Automatizados Adicionados
 
 - Exemplos de novos testes:
   - Verificar status 401 em endpoints protegidos usando tokens expirados.
-  - Validar resposta para produtos com preço negativo.
-  - Inserção de usuário com campo "administrador" vazio.
+  - Validar resposta para produtos com preços inválidos.
   - Deleção de produtos usados por múltiplos carrinhos (dependência parcial da API).
 
 
