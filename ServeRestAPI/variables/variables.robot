@@ -55,6 +55,8 @@ ${nome_produto_duplicado}      Produto Test Duplicado
 # ╭────────────────────────────╮
 # │   Variáveis de Controle    │
 # ╰────────────────────────────╯
+${SENHA_TESTE_LOGIN}     12345
+${EMAIL_TESTE_LOGIN}     teste@email.com
 ${USUARIO_ID}                  ${EMPTY}
 ${PRODUTO_ID}                  ${EMPTY}
 ${TOKEN_ADMIN}                 ${EMPTY}

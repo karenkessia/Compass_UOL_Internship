@@ -2,7 +2,7 @@
 Documentation    Testes para Seção de Produtos 
 Resource         ../resources/base.robot
 Resource         ../keywords/Products_Keywords.robot
-
+Suite Setup    Criar Sessao ServeRest
 
 *** Keywords ***
 

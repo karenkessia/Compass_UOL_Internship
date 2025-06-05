@@ -2,7 +2,7 @@
 Documentation    Testes para Seção Usuários
 Resource         ../resources/base.robot
 Resource         ../keywords/Users_Keywords.robot
-
+Suite Setup    Criar Sessao ServeRest
 
 # ╭─────────────────────────╮
 # │ Testes de Criação       │
