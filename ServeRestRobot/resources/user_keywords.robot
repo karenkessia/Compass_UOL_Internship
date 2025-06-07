@@ -40,7 +40,7 @@ Cadastrar Usuário Com Sucesso
 
 
 # ╭──────────────────────────────────────────────╮
-# │ Cadastro com Email Já Existente             │
+# │ Cadastro com Email Já Existente              │
 # ╰──────────────────────────────────────────────╯
 Cadastrar Usuário Com Email Já Existente
     [Documentation]    Tenta cadastrar um usuário com email já existente e valida erro 400

@@ -6,7 +6,7 @@
 Documentation     Keywords comuns utilizados em múltiplos testes da API ServeRest
 Library           String
 Library           RequestsLibrary
-Library           FakerLibrary
+Library           FakerLibrary    
 Library           Collections
 Resource          ../variables/serverest_vars.robot
 
@@ -31,25 +31,25 @@ Criar e Iniciar Sessão API
 
 Gerar Nome Aleatório Válido
     [Documentation]    Gera um nome aleatório usando FakerLibrary
-    ${nome}=    FakerLibrary.Name
+    ${nome}=      FakerLibrary.User.Name
     RETURN      ${nome}
 
 Gerar Email Aleatório Válido
     [Documentation]    Gera um email aleatório com domínio válido
-    ${username}=    FakerLibrary.User Name
+    ${username}=    FakerLibrary.User.Name
     ${email}=       Set Variable    ${username}@compasso.com
     RETURN          ${email}
 
 Gerar Email Aleatório Inválido
     [Documentation]    Gera um email aleatório com domínio específico
     [Arguments]        ${dominio}
-    ${username}=       FakerLibrary.User Name
+    ${username}=       FakerLibrary.User.Name
     ${email}=          Set Variable    ${username}@${dominio}
     RETURN             ${email}
 
 Gerar Senha Aleatória Válida
     [Documentation]    Gera uma senha aleatória usando FakerLibrary
-    ${senha}=    FakerLibrary.Password
+    ${senha}=    FakerLibrary.password
     ...          length=8
     ...          special_chars=True
     ...          digits=True
