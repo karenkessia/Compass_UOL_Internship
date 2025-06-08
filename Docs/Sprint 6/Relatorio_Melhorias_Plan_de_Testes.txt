@@ -1,7 +1,7 @@
   Documento de Atualização: Melhorias no Plano de Testes da API ServeRest
 
 **Responsável:** Karen Késsia Herrmann  
-**Versão Atualizada:** 28/05/2025  
+**Versão Atualizada:** 07/06/2025  
 **Contexto:** Ajustes com base em feedbacks recebidos e novos aprendizados em testes automatizados com Robot Framework.
 
 
