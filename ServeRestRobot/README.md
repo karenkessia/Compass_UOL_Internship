@@ -39,6 +39,30 @@
 
 ---
 
+ <h3>📁 Estrutura do Projeto</h3>
+  <pre>
+ServeRestRobot/
+├── resources/                    
+│   ├── common.robot             
+│   ├── login_keywords.robot      
+│   ├── product_keywords.robot    
+│   └── user_keywords.robot       
+│
+├── tests/                        
+│   ├── login.robot               
+│   ├── produtos.robot           
+│   └── usuarios.robot            
+│
+├── variables/                    
+│   └── serverest_vars.robot      
+│
+├── requirements.txt              
+└── README.md                  
+
+  </pre>
+
+---
+
 ###  Funcionalidades Implementadas
 
 -  Abordagem **Keyword-Driven** aplicada à estrutura dos testes;
