@@ -1,0 +1,57 @@
+{
+    "create":{
+        "user": {
+            "name":"SteveJobs",
+            "email":"Jobs@apple.com",
+            "password":"123456"
+        },
+        "task": {
+            "name":"Create new iPod version",
+            "tags": ["ios", "music", "ipod"]
+        }
+    },
+    "duplicate":{
+        "user": {
+            "name":"AmandaWaller",
+            "email":"Waller@apple.com",
+            "password":"123456"
+        },
+        "task": {
+            "name":"Recrutar novos meta humanos",
+            "tags": []
+        }
+    },
+    "tags_limit":{
+        "user": {
+            "name":"CarlosVillagram",
+            "email":"kiko@email.com",
+            "password":"123456"
+        },
+        "task": {
+            "name":"Estudar Python",
+            "tags": ["1", "2", "3","4"]
+        }
+    },
+    "done":{
+        "user": {
+            "name":"TonyStark",
+            "email":"Tony@email.com",
+            "password":"123456"
+        },
+        "task": {
+            "name":"Criar IA",
+            "tags": ["1", "2", "3","4"]
+        }
+    },
+    "delete":{
+        "user": {
+            "name":"UserToExclude",
+            "email":"UserBye@email.com",
+            "password":"123456"
+        },
+        "task": {
+            "name":"Exclude",
+            "tags": ["1", "2", "3"]
+        }
+    }
+}
