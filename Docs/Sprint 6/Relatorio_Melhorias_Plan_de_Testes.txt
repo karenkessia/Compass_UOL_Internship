@@ -1,7 +1,7 @@
   Documento de Atualização: Melhorias no Plano de Testes da API ServeRest
 
 **Responsável:** Karen Késsia Herrmann  
-**Versão Atualizada:** 28/05/2025  
+**Versão Atualizada:** 07/06/2025  
 **Contexto:** Ajustes com base em feedbacks recebidos e novos aprendizados em testes automatizados com Robot Framework.
 
 
@@ -9,17 +9,19 @@
 
  1. Cobertura de Testes Ampliada
 
-- Aumentamos a cobertura dos testes de 53% para 90%, incluindo:
-  - Casos de borda negligenciados;
+
+- Aumentamos a cobertura dos testes de 53% para **100%**, incluindo:
+  - Casos de borda negligenciados 
   - Verificações de tokens expirados com múltiplos endpoints.
-  - Validações de campos obrigatórios e tipos de dados (e.g. "preco: string").
+  - Validações de campos obrigatórios e tipos de dados
   - Testes de consistência entre ações encadeadas (e.g. criar → editar → deletar o mesmo item).
   - Adição da sessão "Carrinhos"
   
  2. Refinamento de Cenários de Teste
 
-- Os cenários foram reestruturados para seguir a nomenclatura padrão `Gherkin` nos testes automatizados.
-- Foram criados novos testes exploratórios guiados, com base em heurísticas como:
+- Os cenários foram reestruturados para os testes automatizados.
+- Foram criados **novos testes exploratórios guiados**, com base em heurísticas como:
+
   - Goldilocks (valores mínimos, médios e máximos).
   - Risco → Impacto → Frequência (modelo PRISMA).
   - Ciclos de autenticação (renovação de token).
@@ -35,9 +37,8 @@
 
 - Reestruturamos o plano para automação com Robot Framework, usando:
   - Biblioteca `RequestsLibrary` para chamadas REST.
-  - Testes organizados em diretórios por US (`usuarios`, `login`, `produtos`).
-  - Utilização de `Fixtures` (arquivos JSON de entrada) e variáveis globais.
-- Adição de checks de schema com `JSONSchemaLibrary` (validação da estrutura esperada das respostas).
+  - Setup com geração/remoção dinâmica de dados.
+- Integração com **GitHub Actions** para execução contínua.
 
 
  5. Novos Casos Automatizados Adicionados
