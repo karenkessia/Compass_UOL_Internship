@@ -1,18 +1,16 @@
 <table>
   <tr>
-    <td><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiVnxWkWcDkQ83ZedzJMtjgVzlNdocM7H0Sgsj3YPUGjsz4WET_Skfp9DKmjQHQtxkXpR5x9hoAmxWEhekBtila47wDVS3pzGdQuxuIsV8MtUDNsG6xQUGYcKesuZiQ5UAfJ8nxyuXKRSA_Jjl0jGCot-mRq7T0m6MhS3EsCpM2dYmnSMaJPRKWwnYIlSk/s1920/Por-que-a-Compasso-UOL-agora-se-chama-Compass-UOL.jpg" alt="Image" width="150" height="auto"></td>
     <td>
       <h1>QA Intern | Compass UOL – AWS & AI for Software Quality Engineering</h1>
       <div align="center">
         <a href="https://skillicons.dev">
-          <img src="https://skillicons.dev/icons?i=postman,aws,vscode,python,git " alt="My Skills" 
-            <p align="center">
-</p>
+          <img src="https://skillicons.dev/icons?i=postman,aws,vscode,python,git" alt="Skills">
         </a>
       </div>
     </td>
   </tr>
 </table>
+
 
 ## Sobre
 
@@ -21,6 +19,6 @@ Este espaço foi criado para registrar minha trajetória como estagiária em QA 
 
 <p align="center">
   <br>
-  <img src="https://github.com/user-attachments/assets/79a2e995-a1be-4192-9ded-771004ef7417" width="150">
+<img src="/Img/compasslogo.png" alt="Logo Compass Uol" width="150">
 </p>
 

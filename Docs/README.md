@@ -7,7 +7,7 @@ Este espaço foi criado para registrar minha trajetória como estagiária em QA 
 Um mapa mental visual foi criado para ajudar na compreensão geral do repositório, suas seções e conexões entre os tópicos trabalhados.
 
 
-<img src="https://github.com/user-attachments/assets/2400aa09-7b1b-40d4-99f7-0c4e54243a38" alt="Image">
+<img src="../Img/Doc_Github_Intern.jpeg" alt="Mind Map Image">
 
 
 
@@ -50,5 +50,5 @@ Durante o estágio, tive a oportunidade de desenvolver habilidades técnicas e c
 
 <p align="center">
   <br>
-  <img src="https://github.com/user-attachments/assets/79a2e995-a1be-4192-9ded-771004ef7417" width="150">
+  <img src="../Img/compasslogo.png" alt="Logo Compass Uol" width="150">
 </p>
